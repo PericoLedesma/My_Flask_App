@@ -1,0 +1,18 @@
+flask : microweb framework
+
+falsk vs django
+less tools than django
+
+
+https://www.youtube.com/watch?v=mqhxxeeTbu0
+
+We are using Jinga to use template language - jinga . It lets us write pythion in html without using javascript template html templates
+
+the good think of jinga templates we can pass variables to the templates
+        return render_template('login.html', text='Testing')
+
+
+{{ text }} <- to use the variable in html by using python
+
+bootstrap
+
