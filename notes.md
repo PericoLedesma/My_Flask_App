@@ -18,9 +18,9 @@ bootstrap
 
 ````
 docker build \
---build-arg REACT_APP_BACKEND_URL="https://4567-$GITPOD_WORKSPACE_ID.$GITPOD_WORKSPACE_CLUSTER_HOST" \
---build-arg REACT_APP_AWS_PROJECT_REGION="$AWS_DEFAULT_REGION" \
---build-arg REACT_APP_AWS_COGNITO_REGION="$AWS_DEFAULT_REGION" \
+--build-arg REACT_APP_BACKEND_URL="https://4567-$pericoledes-awsbootcamp-53fmjhraglw.$ws-eu96.gitpod.io" \
+--build-arg REACT_APP_AWS_PROJECT_REGION="eu-central-1" \
+--build-arg REACT_APP_AWS_COGNITO_REGION="eu-central-1" \
 --build-arg REACT_APP_AWS_USER_POOLS_ID=“eu-central-1_m6hu1cbSu" \
 --build-arg REACT_APP_CLIENT_ID="6h42orvqfbgku4g88q0lnjou1u" \
 -t frontend-react-js \
