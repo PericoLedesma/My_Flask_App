@@ -14,7 +14,7 @@ the good think of jinga templates we can pass variables to the templates
 
 {{ text }} <- to use the variable in html by using python
 
-bootstrap
+bootstr22
 
 ````
 docker build \
@@ -28,3 +28,4 @@ docker build \
 .
 ````
 
+werwerwerwer
